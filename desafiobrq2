@@ -1,0 +1,20 @@
+// Pegando o ID do botão simular e alocando como variável global. 
+
+const simular = document.getElementById("simular");
+
+
+// Declaração de variáveis
+
+const nome = document.getElementById("nome").value;
+const idade = document.getElementById("idade").value;
+let select = document.getElementById("sexo", "perfil de investidor").value;
+let rendaMensal = document.getElementById("renda mensal").value;
+
+// Condicional para averiguar se a pessoa é maior de idade.
+
+if (idade < 18) {
+    console.log("Você precisa ser maior de idade para investir.");
+}
+
+// Definicindo o perfil do investidor. 
+
